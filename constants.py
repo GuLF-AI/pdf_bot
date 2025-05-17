@@ -1,7 +1,5 @@
 import os
 import openai
-#user_api_key = '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'
-#os.environ["OPENAI_API_KEY"] = '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'
 user_api_key = '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'
 os.environ["OPENAI_API_KEY"] = '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'
 
