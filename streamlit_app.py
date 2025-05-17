@@ -43,7 +43,7 @@ def format_docs(docs):
         return "\n\n".join(doc.page_content for doc in docs)
 
 def save_uploadedfile(uploadedfile): #Fonction appelée pour s'assurer du bon format du fichier audio
-    with open(os.path.join("input/", uploadedfile.name), "wb") as f:
+    with open(os.path.join("Input/", uploadedfile.name), "wb") as f:
         f.write(uploadedfile.getbuffer())
 
 def split_document(docs):
