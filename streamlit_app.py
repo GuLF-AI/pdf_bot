@@ -108,7 +108,7 @@ if __name__=='__main__':
 
     with col1:
         if sl.button("Run Analysis"):
-            if len(os.listdir('./input/')) == 0:
+            if len(os.listdir('./Input/')) == 0:
                 sl.write("no input yet")
             else:    
                 #sl.write("you uploded")
