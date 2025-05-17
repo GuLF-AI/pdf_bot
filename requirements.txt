@@ -6,5 +6,4 @@ langsmith==0.0.87
 language_data==1.3.0
 tqdm==4.66.1
 openai==1.76.0
-faiss-cpu==1.7.4
-faiss-gpu==1.7.2
+faiss-cpu
