@@ -100,7 +100,7 @@ if __name__=='__main__':
     #comtypes.CoInitialize()
     infolder=os.path.dirname(os.path.abspath(__file__))
     #path = os.path.abspath("..\\Input\\")
-    path = "pdf_bot/input/"
+    path = "pdf_bot/Input/"
     files = os.listdir(path)
     
         
