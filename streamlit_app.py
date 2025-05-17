@@ -114,7 +114,7 @@ if __name__=='__main__':
                 #sl.write("you uploded")
                 for file in files:
                     print(file)
-                    load_pdf(path+"\\"+file)
+                    load_pdf(path+file)
     knowledgeBase=load_knowledgeBase()
     llm=load_llm()
     prompt=load_prompt()
