@@ -99,7 +99,7 @@ if __name__=='__main__':
     
     #comtypes.CoInitialize()
     infolder=os.path.dirname(os.path.abspath(__file__))
-    path = os.path.abspath(__file__+"..\\..\\Input\\")
+    path = os.path.abspath("\\Input\\")
     files = os.listdir(path)
     
         
